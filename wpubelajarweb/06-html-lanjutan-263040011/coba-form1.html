@@ -6,11 +6,54 @@
     <title>Coba element form</title>
 </head>
 <body>
-    <h1>Contoh contoh element form</h1>
+    <h1>Contoh contoh element form pada html</h1>
     <form>
-        <label for="nama">nama:
-            <input type="text">
-        </label>
+        <label for="nama">nama:</label> 
+            <input type="text" id="nama" name="nama" placeholder="nama sampean sopo cuk">
+        
+        <br>
+
+        <label for="password">password:</label>
+            <input type="password" id="password" name="password" placeholder="password">
+        
+        <br>
+
+        <label for="email">email:</label>
+            <input type="email" id="email" name="email" placeholder="masukan email">
+
+        <br>
+
+        <label for="number">angka:</label>
+            <input type="number" id="number" name="number" placeholder="masukan angka"
+            min="0" max="120" step="10">
+
+        <br>
+
+        <label for="date">date:</label>
+            <input type="date" name="date" id="date">
+
+            <button type="submit">submit</button>
+        
     </form>
+
+    <form>
+        <input type="checkbox" id="checkbox1" name="hobi1"value="main sepak bola">
+        <label for="heckbox1">main sepak bola </label>
+        <br>
+         <input type="checkbox" id="checkbox2"name="hobi2"value="gurinda baja">
+        <label for="heckbox2">gurinda baja </label>
+        <br>
+        <input type="checkbox" id="checkbox3"name="hobi3"value="balap liar">
+        <label for="checkbox3">balap liar </label>
+    </form>
+
+    <form>
+        <input type="radio" id="radio1" name="gender" value="laki-laki">
+        <label for="radio1">laki-laki</label>
+        <br>
+        <input type="radio" id="radio2" name="gender" value="wanita">
+        <label for="radio2">wanita </label>
+    </form>
+
 </body>
 </html>
