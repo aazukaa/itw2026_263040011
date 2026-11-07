@@ -5,58 +5,58 @@
   <meta charset="UTF-8">
   <title>Latihan Smart Selector</title>
   <style>
-    body {
+    body{
       font-family: Arial, Helvetica, sans-serif;
       background-color: #f4f4f4;
     }
 
-    h2 {
+    h2{
+      color: grey;
       text-decoration: underline;
-      color: #333;
     }
 
-    :is(header, main, footer) h3 {
+    :is(header, main, footer) h3{
       color: navy;
       font-style: italic;
     }
 
-    .gallery {
+    .gallery{
       text-align: center;
     }
 
-    .gallery img {
+    .gallery img{
       width: 100px;
       cursor: pointer;
       transition: opacity 0.3s;
     }
 
-    .gallery:hover img:not(:hover) {
+    .gallery:hover img:not(:hover){
       opacity: 0.3;
     }
 
-    ul {
+    ul{
       list-style: none;
     }
 
-    li {
+    li{
       background-color: white;
-      outline: 1px solid #ddd;
+      outline: 1px solid grey;
       color: #333;
     }
 
-    .badge {
+    .badge{
       background-color: red;
-      color: white;
-      font-size: 0.8em;
+      color: whitesmoke
+      font-size: 0.8;
     }
 
-    li:has(.badge) {
-      background-color: rgb(255, 227, 227);
+    li:has(.badge){
+      background-color: rgb(226, 97, 97);
       font-weight: bold;
     }
 
-    li:has(img) {
-      background-color: rgb(220, 255, 255);
+    li:has(img){
+      background-color: rgb(199, 236, 236);
       color: teal;
     }
   </style>
